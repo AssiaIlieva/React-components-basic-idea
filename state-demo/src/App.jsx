@@ -1,7 +1,7 @@
 
 import './App.css';
 import Timer from './components/Timer';
-import BaseCounter from './components/BaseCounter'; 
+import Counter from './components/Counter'; 
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <Timer/>
 
-    <BaseCounter/>
+    <Counter/>
     </>
   );
 }
