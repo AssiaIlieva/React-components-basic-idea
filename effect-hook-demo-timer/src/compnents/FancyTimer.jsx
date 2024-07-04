@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from './FancyTimer.module.css';
 
 
 export default function FancyTimer() {
@@ -20,7 +21,7 @@ export default function FancyTimer() {
 
     return (
         <>
-            <h2>Fancy Timer</h2>
+            <h2 className={styles['fancy-timer']}>Fancy Timer</h2>
             <div>{time}</div>
             <button onClick={addSecondsHandler}>Add seconds</button>
         </>
